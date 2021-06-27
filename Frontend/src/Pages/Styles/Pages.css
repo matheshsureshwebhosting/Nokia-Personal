@@ -1,0 +1,61 @@
+.test-checklist-btn {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+  border-radius: 28px;
+}
+.master-checklist-btn {
+  position: absolute;
+  bottom: 0;
+  background: #cfd3da;
+  /* background: transparent linear-gradient(180deg, #e6eaf2 0%, #ced2d9 100%) 0%
+    0% no-repeat padding-box; */
+  background-size: cover;
+}
+.videobtn {
+  background: darkblue;
+  color: white;
+  width: 50px;
+  border: none;
+  margin: 5px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.progres-circle {
+  height: 150px;
+  width: 150px !important;
+}
+.prg-div {
+  z-index: 1;
+  position: fixed;
+  right: 0.5%;
+  top: 1%;
+  height: 200px;
+  width: 200px;
+}
+.data-title {
+  color: #124191;
+  font-weight: 700;
+  font-size: 1.2em;
+}
+.data-text {
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+.video-content {
+  left: -1.5%;
+}
+.disable-btn-tooltip {
+  background-color: #124191;
+  padding: 1rem;
+  border-color: #124191 !important;
+  font-size: 1rem;
+}
